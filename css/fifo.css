@@ -1,0 +1,256 @@
+BODY {
+	font:0.785em/1.231 Arial, Helvetica, Clean, sans-serif;
+	background-repeat: repeat-x;
+	background-position: top;
+	background-attachment: fixed;
+	background-color: #ffffff;
+    color : #000000;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.style2 {color: #FFFFFF; font-weight: bold; }
+/* the links styles*/
+a {
+	font:12px/1.231 Arial, Helvetica, Clean, sans-serif;
+	text-decoration:none;
+	color: #ffffff;
+	text-align : center;
+}
+a:link {
+	font:12px/1.231 Arial, Helvetica, Clean, sans-serif;
+	text-decoration:none;
+	color: #ffffff;
+	text-align : center;
+}
+a:hover{
+	text-decoration:underline;
+	color: #ffffff;
+	text-align : center;
+}
+			
+#main_table{
+	background-color: #ffffff;
+	/*border-collapse: collapse;*/
+	border: solid #000000 0px;
+}
+		
+#header{
+	text-transform: uppercase;
+	background-color: #cbb600;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 1.1em;
+	letter-spacing: 0.04em;
+}
+	
+#title{
+	text-transform: uppercase;
+	background-color: #000000;
+	color: #ffffff;
+	text-align: left;
+	vertical-align: middle;
+	font-size: 1.1em;
+	letter-spacing: 0.04em;
+	padding-left: 10px;
+}
+
+#help{
+	text-transform: uppercase;
+	background-color: #cbb600;
+	text-align: left;
+	vertical-align: middle;
+	font-size: 1.1em;
+	letter-spacing: 0.04em;
+}
+		
+#operations{
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: #999999;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 1em;
+	letter-spacing: 0.04em;
+}
+
+#button{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #000000;
+	padding: 2px;
+	border: solid #000000 1px;
+	}
+#load_button{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #038700;
+	padding: 2px;
+	border: solid #000000 2px;
+	}
+
+#execute_button{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #038700;
+	padding: 2px;
+	border: solid #000000 2px;
+	}
+
+#exit_button{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #ff0018;
+	padding: 2px;
+	border: solid #000000 2px;
+	}
+
+#statistics_button{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #038700;
+	padding: 2px;
+	border: solid #000000 2px;	
+}
+
+#resume_button{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #038700;
+	padding: 2px;
+	border: solid #000000 2px;	
+}
+
+#abort_button{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #cbb600;
+	padding: 2px;
+	border: solid #000000 2px;	
+}	
+
+#tr_lables{
+	background-color: #323232;
+	padding: 1px;
+	border: solid #000000 1px;
+	}
+
+#in_labels{
+	text-align: center;
+	vertical-align: middle;
+	width: 150px;
+	color: #ffffff;
+}
+
+#tr_engine{
+	background-color: #999999;
+	padding: 1px;
+	border: solid #000000 1px;
+	}
+	
+#in_values{
+	text-align: center;
+	vertical-align: middle;
+	color: #ffff33;
+}
+	
+#in_completed{
+	text-align: center;
+	vertical-align: middle;
+	color: #6bff2d;
+}
+	
+#in_failed{
+	text-align: center;
+	vertical-align: middle;
+	color: #c80013;
+}
+	
+#in_executing{
+	text-align: center;
+	vertical-align: middle;
+	color: #66ffcc;
+}
+	
+#in_waiting{
+	text-align: center;
+	vertical-align: middle;
+	color: #ffff33;
+}
+
+.all-rounded {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+ 
+.spacer {
+	display: block;
+}
+
+#tr_progress{
+	background-color: #323232;
+	padding-top: 5px;
+	border: solid #000000 1px;
+	}
+
+#progress-bar {
+	width: 300px;
+	 text-align: left;
+	margin: 0 auto;
+	background: #cccccc;
+	border: 3px solid #f2f2f2;
+}
+ 
+#progress-bar-percentage {
+	background: #038700;
+	padding: 5px 0px;
+ 	color: #FFF;
+ 	font-weight: bold;
+ 	text-align: center;
+}
+
+#tr_statistics{
+	background-color: #999999;
+	color: #ffffff;
+	height: 160px;
+}
+
+#gant_chart{
+	float: center;
+	width: 730px;
+	height: 120px;
+	background-color: no transparent;
+	position: relative;
+	color: #000000;
+	overflow: auto;
+	padding: 0px;
+	border-bottom: solid #737373 0px;
+}
+
+#graph_chart{
+	float: center;
+	width: 1050px;
+	background-color: no transparent;
+	position: relative;
+	color: #000000;
+	overflow: auto;
+	padding: 0px;
+	border-bottom: solid #737373 0px;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+	font:12px/1.531 Arial, Helvetica, Clean, sans-serif;
+}
